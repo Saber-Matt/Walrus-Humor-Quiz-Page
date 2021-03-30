@@ -2,22 +2,25 @@
 //
 //Use document.getElementById to get HTML Elements in JavaScript
 
-document.getElementById
 
+const beginButton = document.getElementById('begin');
 
+console.log(beginButton);
 
 
 
 //Use document.getElementById to set the textContent of HTML Elements in JavaScript
 
-document.getElementById
+document.getElementById;
 
 
 
 
 
 //Use an event listener to launch prompts
-addEventlistener
+beginButton.addEventListener('click', () => {
+    console.log('Noodles');
+});
 
 
 
